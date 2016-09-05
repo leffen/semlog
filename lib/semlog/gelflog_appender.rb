@@ -2,7 +2,7 @@ require "semantic_logger"
 
 module Semlog
 
-  class SemanticLogger::Appender::GelflogAppender < SemanticLogger::Subscriber
+  class GelflogAppender < SemanticLogger::Subscriber
 
     # Map Semantic Logger levels to Graylog levels
     LEVEL_MAP = {
